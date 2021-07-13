@@ -1,0 +1,27 @@
+h1 {
+	color: blue;
+	text-align: center
+}
+table {
+		border:5px solid black;
+		margin:20px;
+}
+td,th {
+	border:2px solid black;
+	padding: 5px;
+}
+div{
+	color:blue;
+	
+}
+#foo{
+	color: red;
+}
+@media (min-width:600px){
+		body{
+		background-color: grey;}
+		}
+		@media (max-width:599px){
+		body{
+		background-color: purple;}
+		}
